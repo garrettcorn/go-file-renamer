@@ -61,7 +61,7 @@ func renameFiles(fileNames []string, newExt string) (newFileNames []string, err 
 // main is main yo
 func main() {
 
-	// pase the flags
+	// parse the flags
 	flags := parseFlags()
 	if *(flags.debug) {
 		printFlags(flags)
