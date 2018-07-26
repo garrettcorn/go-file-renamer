@@ -27,7 +27,7 @@ export PATH=$PATH:$GOPATH/bin
 ```
 
 ## Usage
-By default go-file-renamer will automatically change all of the files with the `rar` extension in the current working directory to `mkv`. To configure go-file-renamer simply provide from and to flags with the desired options. For example to change all files in the current directory from `foo` to `bar`.
+By default go-file-renamer will automatically change all of the files with the `rar` extension in the current working directory to `mkv`. To configure go-file-renamer simply provide `-from` and `-to` flags with the desired options. For example, to change all files in the current directory from `foo` to `bar` run the following.
 ```
 go-file-renamer -from foo -to bar
 ```
